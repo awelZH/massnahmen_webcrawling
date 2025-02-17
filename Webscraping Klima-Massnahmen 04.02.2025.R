@@ -17,6 +17,8 @@ library(rvest)
 library(writexl)
 library(httr2)
 
+req <- 
+
 resp <- req %>% 
   httr2::req_perform()
 
